@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+</head>
+<h>HOME PAGE</h>
+<nav>
+<a href = "{% url 'about'%}">ABOUT</a>
+</nav>
+<br>
+I am Nathan Yumul, a computer engineering student at HAU.
+<br>
+Here are the projects I have code so far:
+<br>
+- A text-based RPG
+<br>
+- A library management system
+{{ obj }}
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<br>
+<br>
+<footer>Nathan Yumul 2025</footer>
+</body>
+</html>
